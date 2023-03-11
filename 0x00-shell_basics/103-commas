@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -p | sort -d -f --version-sort | tr '\n' ',' | sed 's/,$/\n/'
+ls -ap | sort -d -f --version-sort | tr '\n' ',' | sed 's/,$/\n/'
